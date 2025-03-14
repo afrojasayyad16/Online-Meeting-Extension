@@ -33,6 +33,9 @@ The name of my project is AI-Powered Online Meeting Agenda Generator. The main o
  ```
 #### Load the extension on chrome Browser
 1.Go to manage extensions
+
 2.Select Load Unpacked
+
 3.Load the /extension folder
+
 4.Test it in development environment
