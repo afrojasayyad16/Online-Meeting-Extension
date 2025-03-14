@@ -6,6 +6,13 @@ The name of my project is AI-Powered Online Meeting Agenda Generator. The main o
      [deepspeech-0.9.3-models.pbmm](https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.pbmm)</br>
      [deepspeech-0.9.3-models.scorer](https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer) 
 
+### Gemini API setup
+1.Create a new project on Google Cloud Console https://cloud.google.com/free?utm_source=PMAX&utm_medium=display&utm_campaign=FY25-Q1-apac-gcp-DR-campaign-IN&utm_content=in-en&gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KegOj5a0JbBUFka7CE33g5xnS7Ezvsf5H1VNnKevGHLNbHcYYbrIrcaAiJFEALw_wcB&gclsrc=aw.ds
+
+2.Select gemini-2.0-pro-exp-02-05 model and get API key by choosing your created project on Google Cloud Console.
+
+3.Copy the Gemini API key and paste in .env file
+
 ### Install following dependencies 
 
  ```bash
