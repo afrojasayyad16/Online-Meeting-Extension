@@ -25,5 +25,9 @@ The name of my project is AI-Powered Online Meeting Agenda Generator. The main o
 - #### Start development server
 
  ```bash
-     npm run start-dev
+     npm run dev
+ ```
+- ### Run the extension
+```bash
+     python summarizer.py
  ```
