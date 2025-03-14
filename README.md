@@ -13,7 +13,7 @@ The name of my project is AI-Powered Online Meeting Agenda Generator. The main o
 
 3.Copy the Gemini API key and paste in .env file
 
-### Install following dependencies 
+#### Install following dependencies 
 
  ```bash
      npm install
@@ -27,7 +27,7 @@ The name of my project is AI-Powered Online Meeting Agenda Generator. The main o
  ```bash
      npm run dev
  ```
-- ### Run the extension
+- #### Run the extension
 ```bash
      python summarizer.py
  ```
