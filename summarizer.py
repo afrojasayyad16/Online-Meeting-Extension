@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Allows the Chrome extension to access the API
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDERlVWXSfKX7eJ6UyqVVj7p0JkljzTdDs")
+genai.configure(api_key=process.env.GEMINI_API_KEY)
 
 def draw_wrapped_text(pdf, text, x, y, width, font_name, font_size):
     """Draw wrapped text within a specified width."""
