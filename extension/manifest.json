@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Meeting Mate",
+  "version": "2.1",
+  "description": "Agenda Generator for online meetings",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "https://zoom.us/*",
+    "https://teams.microsoft.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/ConvenelQ.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*", "https://zoom.us/*", "https://teams.microsoft.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end" 
+    }
+  ]
+}

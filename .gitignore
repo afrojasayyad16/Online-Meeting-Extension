@@ -1,0 +1,5 @@
+node_modules
+.prettierrc
+.env
+deepspeech-0.9.3-models.pbmm
+deepspeech-0.9.3-models.scorer
