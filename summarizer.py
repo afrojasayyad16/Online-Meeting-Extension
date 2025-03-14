@@ -75,7 +75,7 @@ def summarize_text():
         # Use Gemini to generate a summary and title
         model = genai.GenerativeModel('gemini-2.0-pro-exp-02-05')
         
-        # Generate a structured summary with Main Content maximized to ~50% of the transcript
+        # Generate a structured summary with Main Content maximized to ~70% of the transcript
         summary_response = model.generate_content(
             f"Summarize this text in the following format without using asterisks or any additional descriptions:\n\n"
             f"Introduction - Provide a brief introduction to the topic (10-15% of the content).\n"
